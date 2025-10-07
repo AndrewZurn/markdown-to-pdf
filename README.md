@@ -4,7 +4,7 @@ A simple Python script to convert Markdown files to PDF using the `markdown_pdf`
 
 ## Description
 
-This project provides a script (`md_to_pdf.py`) that takes a Markdown file (`summary.md`) as input, applies some basic table styling, and generates a PDF file named `output.pdf`.
+This project provides a script (`md_to_pdf.py`) that takes a Markdown file as input and generates a PDF file.
 
 ## Setup and Usage
 
@@ -52,14 +52,13 @@ pip install -r requirements.txt
 
 ### 3. Run the Script
 
-To convert the `summary.md` file to `output.pdf`, run the script:
+To convert a Markdown file to PDF, use the `-i` flag for the input file and the `-o` flag for the output file.
+
+**Example:**
 
 ```bash
-python md_to_pdf.py
+python md_to_pdf.py -i summary.md -o output.pdf
 ```
 
-The output file `output.pdf` will be created in the project root.
+This will convert `summary.md` to `output.pdf`.
 
-## Customization
-
-To change the input or output files, you will need to modify the `md_to_pdf.py` script.
